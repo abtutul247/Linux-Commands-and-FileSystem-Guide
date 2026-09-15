@@ -2,17 +2,20 @@
 A beginner-friendly guide covering Linux file system structure and essential terminal commands for ethical hacking.
 
 
-🚀 Master Linux Basics for Ethical Hacking & Cybersecurity! 🐧
+# 🐧 Linux File System & Essential Commands Guide
 
-Understanding the Linux File System is the foundation of penetration testing and system security. Here is a quick breakdown of key directories every beginner should know:
+A beginner-friendly cheatsheet for mastering the Linux File System and terminal commands.
 
-🔹 / (Root): The top-level root directory.
-🔹 /etc: Contains vital system configuration files.
-🔹 /var/log: Essential for monitoring system events and logs.
-🔹 /tmp: Temporary space often used during lab testing and exploits.
+## 📁 Key Directories
+- `/` — Root directory
+- `/etc` — System configurations (e.g., `/etc/passwd`)
+- `/var/log` — System and application log files
+- `/tmp` — Temporary files (World-writable)
+- `/opt` — Third-party tools and security software
 
-💡 Pro Tip: Commands like 'ls -la', 'chmod', and 'cat /etc/passwd' are daily essentials when navigating a Linux terminal.
-
-Check out my GitHub repository for a complete guide: https://github.com/abtutul247/Linux-Commands-and-FileSystem-Guide
-
-#Cybersecurity #EthicalHacking #Linux #InfoSec #Batch11 #MissionHackersBangladesh
+## ⚡ Essential Commands
+- `pwd` — Display current path
+- `ls -la` — List all files with detailed permissions
+- `cat /etc/passwd` — View system users
+- `chmod +x script.sh` — Grant execution permission
+- `sudo su` — Elevate privileges to root
